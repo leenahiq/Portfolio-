@@ -15,10 +15,10 @@
    <div class="topnav" id="myTopnav">
               <a id="logo" href ="#">Portfolio...</a>   
               <a href="index.html"> home</a>
-              <a href="about.html">About </a>
-              <a href="skills.html">Skills</a>
-              <a href="services.html">Services </a>
-              <a href="contact.html">Contact Me </a>
+              <a href="#link1">About </a>
+              <a href="#link2">Skills</a>
+              <a href="#link3">Services </a>
+              <a href="#link4">Contact Me </a>
               <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
               </a>
@@ -35,7 +35,7 @@
          <div class="text1"> Hello, my name is </div>
          <div class="text2"> Leenah Iqbal </div>
          <div class="text3"> I am a <span>Full Stack Web Developer </span> </div>
-    <button class="button" >  <a href="inquiry.html">drop a question </a></button> 
+    <button class="button" >  <a href="#link4">drop a question </a></button> 
        </div>  
        
        
@@ -45,7 +45,11 @@
 </section>
 
 <!-- about section -->
-<section class="about">
+
+<h1 id="link1">About me</h1>
+ 
+<section id="link1" class="about">
+   
 
     <img src = "mypic.jpg" alt = "my pic"></img>
    
@@ -64,9 +68,10 @@
 
     
         </section>
-<hr>
+
         <!-- skills section -->
-        <div>
+        <h1 id="link2">skills</h1>
+        <section id="link2" href="#link2" class="skills">
         <h1>My skills  </h1>
         <ul>
             <li>HTML & CSS</li>
@@ -77,61 +82,61 @@
             <li>MongoDB & MySQL</li>
          
         </ul>
-        <h1>project need adding </h1>
+        
 
-        </div>
-<hr>
+     
+    </section>
         <!-- services section -->
-        <section class="social">
+        <h1 id="link3">Details Are Available On</h1>
+        <section id="link3" class="social">
             <a href="https://www.linkedin.com/in/leenah-iqbal-60747022b/" title="Image from freepnglogos.com"><img src="https://www.freepnglogos.com/uploads/linkedin-logo-transparent-png-16.png" width="200" alt="linkedin logo transparent png" /></a></a>
             <br>
             <a href="https://github.com/leenahiq" title="Image from freepnglogos.com"><img src="https://www.freepnglogos.com/uploads/512x512-logo/512x512-transparent-logo-github-logo-24.png" width="200" alt="512x512 transparent logo, github logo" /></a>
+
+            <button>Download cv</button>
          </section>
-         <button>Download cv</button>
-         <br>
-<br>
-<section>
-<hr>
+
+  
+
+
+
     <!-- contact section  -->
-    <div class="text">
-        <h3>You've got some question</h3>
-        <p>reach us:</p>
-        <p>&phone; 0333 546789</p>
-        <p>&#x2617; leeanahtravel@gmail.co.uk</p>
-        <p>Or</p>
-        <p>Drop a message in message box</p>
- 
-    </div>
+    <h1 id="link4">contact</h1>
+    <section id="link4" href="#link5" class="formContainer" >
 
-    <div class="form2">
-
-
-        <div class="form">
-            <form>
+        <div class="text">
+            <h3 >You've got some question</h3>
+               <p style="color: aquamarine;">contact me :</p>
+               <p>&phone; 0333 546789</p>
+               <p>&#x2617; leeanah@gmail.co.uk.dummy.email</p>
+               <p style="color: aquamarine;">Or</p>
+               <h4>Drop a message in message box</h4>
+           </div style="color:azure;"> 
+   
+    
+   <div class="form">
+    <form>
                 Full name &nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" placeholder="Full name">
                 <br>
                 <br>
-                email &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" placeholder="email"> <br>
+                email &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" placeholder="email"> <br>
                 <br>
                 message &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" placeholder="message">
                 <br><br>
                 <button> submit</button>
-                <p> not register? <a href="member.html">click here</a> </p>
+                <p> not register? <a href="#">click here</a> </p>
 
 
             </form>
+
+            
+           
         </div>
-    </div>
 
-
-
-
-
-
-    </div>
+        </section>
     <br>
 <br>
-<hr>
+
 <!-- social section  -->
 </section>
 <footer class="social">
