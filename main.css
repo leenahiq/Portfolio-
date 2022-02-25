@@ -287,6 +287,9 @@ margin-right: 60px;
 /* styling of nav for responsive screen */
 
 @media screen and (max-width: 600px) {
+  html{
+    scroll-behavior: smooth;
+  }
   .topnav a:not(:first-child) {
     display: none;
   }
