@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -78,12 +78,30 @@ h1{
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  flex-wrap: wrap;
   padding-top: 180px;
   margin-left: 80px;
   padding-bottom: 320px;
   text-shadow: 2px 2px 4px #000000;
   
 }
+.home {
+  animation-name: home;
+  transition: all 3s ease;
+}
+
+
+.home.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+@keyframes home {
+  from {margin: 140px;}
+   
+}
+
 
 .home .text1 {
   font-size: 28px;
@@ -114,12 +132,14 @@ h1{
   border-radius: 15px;
   border: none;
   text-shadow: 2px 2px 4px #000000;
+  
 }
 .home .button a {
   color: azure;
 }
 .home .button a:hover {
   color:aquamarine;
+  
 }
 
 /* styling about section */
@@ -133,6 +153,11 @@ h1{
   color: azure;
  
 }
+.about {
+  animation-name: home;
+  transition: all 3s ease;
+}
+
 .about img{
     width: 200px;
     border-radius: 10px;
@@ -168,7 +193,10 @@ h1{
 /* styling of skills section */
 
 .skills{
-  display: flex;
+  display:block;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
 
   justify-content:flex-end;
   flex-direction: column;
@@ -181,6 +209,15 @@ h1{
   border: 5px solid crimson;
 
 }
+.skills {
+  animation-name: home;
+  transition: all 3s ease;
+}
+@keyframes home {
+  from {margin: 140px;}
+   
+}
+
 .skills h1{
   color: crimson
 
@@ -200,6 +237,14 @@ list-style: none;
 
 
 /* styling for services page  */
+.social {
+  animation-name: home;
+  transition: all 3s ease;
+}
+@keyframes home {
+  from {margin: 140px;}
+   
+}
 
 /* style with social codes  */
 
@@ -209,9 +254,21 @@ list-style: none;
 
 /* styling contact form */
 .text{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
 padding-left: 40px;
   
 }
+.text {
+  animation-name: home;
+  transition: all 3s ease;
+}
+@keyframes home {
+  from {margin: 140px;}
+   
+}
+
 .text h3,h4{
   color: crimson;
 }
@@ -222,7 +279,10 @@ padding-left: 40px;
 
 
   .form{
-    display:block;
+      display:block;
+      flex-direction: column;
+      justify-content: space-around;
+      flex-wrap: wrap;
       background-color: rgba(199, 95, 116, 0.171);
       width:400px;
       height: 350px;
@@ -231,8 +291,19 @@ padding-left: 40px;
       padding: 10px;
       border-radius: 10%;
       overflow: hidden;
+
           
   }
+  .form {
+    animation-name: home;
+    transition: all 3s ease;
+  }
+
+  @keyframes home {
+    from {margin: 140px;}
+     
+  }
+  
   form >input {
       padding:8px;
       padding-left: 40px;
@@ -264,12 +335,13 @@ padding-left: 40px;
   /* social styling  */
   .social
 { 
-margin-right: 60px;
+  margin-right: 60px;
   z-index: 10;
   bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .social 
 {
