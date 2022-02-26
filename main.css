@@ -6,26 +6,22 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
-
 }
 html {
   scroll-behavior: smooth;
 }
-body{
-  background-color:#000000ee;
-  
- 
+body {
+  background-color: #000000ee;
 }
-h1{
+h1 {
   color: crimson;
   font-weight: 500;
   font-size: 35px;
   margin: 20px;
-  
 }
 /* styling of main landing page  */
 .container {
-  width:100%;
+  width: 100%;
   height: min-content;
   margin: 0;
   padding: 0;
@@ -33,9 +29,8 @@ h1{
   background-repeat: no-repeat;
 }
 
-
 #logo {
-  color:crimson;
+  color: crimson;
   font-weight: 600;
   font-size: 20px;
   margin-right: 800px;
@@ -48,33 +43,27 @@ h1{
 .topnav a {
   float: left;
   display: block;
-  color:crimson;
+  color: crimson;
   text-align: center;
   padding: 12px 14px;
   text-decoration: none;
   font-size: 17px;
   text-shadow: 2px 2px 4px #000000;
-  
 }
-
- 
-
 
 .topnav a:hover {
   background-color: rgba(0, 0, 0, 0.11);
-  color:aquamarine;
+  color: aquamarine;
 }
 .topnav .icon {
   display: none;
-  color:crimson;
-
+  color: crimson;
 }
 .topnav #logo:hover {
-  color:aquamarine
+  color: aquamarine;
 }
 
 .home {
-  
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -83,9 +72,7 @@ h1{
   margin-left: 80px;
   padding-bottom: 320px;
   text-shadow: 2px 2px 4px #000000;
-  
 }
-
 
 .home .text1 {
   font-size: 28px;
@@ -104,52 +91,47 @@ h1{
 }
 
 .home span {
-  color:crimson;
+  color: crimson;
 }
 
 .home .button {
   display: flex;
   justify-content: center;
   margin-top: 30px;
-  background-color:crimson;
+  background-color: crimson;
   padding: 15px;
   border-radius: 15px;
   border: none;
   text-shadow: 2px 2px 4px #000000;
-  
 }
 .home .button a {
   color: azure;
 }
 .home .button a:hover {
-  color:aquamarine;
-  
+  color: aquamarine;
 }
 
 /* styling about section */
 
-.about{
+.about {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  flex-direction:row;
+  flex-direction: row;
   padding: 20px;
   color: azure;
- 
 }
 .about {
   animation-name: home;
   transition: all 3s ease;
 }
 
-.about img{
-    width: 200px;
-    border-radius: 10px;
-    border: 5px solid crimson;
-   
-  
+.about img {
+  width: 200px;
+  border-radius: 10px;
+  border: 5px solid crimson;
 }
- .profile{
+.profile {
   width: 400px;
   height: 300px;
   border: 5px solid crimson;
@@ -157,139 +139,116 @@ h1{
   margin: 10px;
 }
 
-.profile h2{
+.profile h2 {
   color: crimson;
 }
-.life{
+.life {
   width: 400px;
   height: 300px;
   border: 5px solid crimson;
   padding: 10px;
   margin: 10px;
-  
 }
-.life h2{
+.life h2 {
   color: crimson;
 }
-.life a{
+.life a {
   color: crimson;
 }
 /* styling of skills section */
 
-.skills{
-  display:block;
+.skills {
+  display: block;
   flex-direction: column;
   justify-content: space-around;
   flex-wrap: wrap;
 
-  justify-content:flex-end;
+  justify-content: flex-end;
   flex-direction: column;
   flex-wrap: wrap;
   color: azure;
   margin: 45px;
   padding: 20px 20px 20px 50px;
-  width:400px;
+  width: 400px;
   height: 300px;
   border: 5px solid crimson;
-
 }
 
-
-.skills h1{
-  color: crimson
-
+.skills h1 {
+  color: crimson;
 }
-.skills ul li{
-list-style: none;
+.skills ul li {
+  list-style: none;
 }
-.skills ul li::before{
+.skills ul li::before {
   content: "\2022";
   color: red;
   font-weight: bold;
-  display: inline-block; 
+  display: inline-block;
   width: 2em;
   margin-left: -1em;
 }
 
-
-
 /* styling for services page  */
-
-
 
 /* style with social codes  */
 
-
-
-
-
 /* styling contact form */
-.text{
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-padding-left: 40px;
-  
+.text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 40px;
 }
 
-.text h3,h4{
+.text h3,
+h4 {
   color: crimson;
 }
 .text p {
   color: azure;
 }
 
+.form {
+  display: block;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgba(199, 95, 116, 0.171);
+  width: 400px;
+  height: 350px;
+  border: 5px solid crimson;
+  margin: 40px;
+  padding: 10px;
+  border-radius: 10%;
+  overflow: hidden;
+}
 
-
-  .form{
-      display:block;
-      flex-direction: column;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      background-color: rgba(199, 95, 116, 0.171);
-      width:400px;
-      height: 350px;
-      border: 5px solid crimson;
-      margin:40px;
-      padding: 10px;
-      border-radius: 10%;
-      overflow: hidden;
-
-          
-  }
-  
-  
-  form >input {
-      padding:8px;
-      padding-left: 40px;
-      border: 2px solid crimson;
-      border-radius: 10px;
-  }
-  button{
+form > input {
+  padding: 8px;
+  padding-left: 40px;
+  border: 2px solid crimson;
+  border-radius: 10px;
+}
+button {
   font-weight: bold;
-      padding: 10px;
-      border-radius: 10px;
-      border: 2px solid crimson;
-  }
-  #messageBox{
-    height: 100px;
-    
-  }
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid crimson;
+}
+#messageBox {
+  height: 100px;
+}
 
-  
-  
-  
-  form > input:hover {
-      border:1px solid rgba(255, 94, 0, 0.418);  
-          
-  }
-  form >button:hover {
-      border:1px solid cyan;
-  }
+form > input:hover {
+  border: 1px solid rgba(255, 94, 0, 0.418);
+}
+form > button:hover {
+  border: 1px solid cyan;
+}
 
-  /* social styling  */
-  .social
-{ 
+/* social styling  */
+.social {
   margin-right: 60px;
   z-index: 10;
   bottom: 20px;
@@ -298,27 +257,24 @@ padding-left: 40px;
   align-items: center;
   flex-wrap: wrap;
 }
-.social 
-{
+.social {
   list-style: none;
 }
-.social  a
-{ 
+.social a {
   display: inline-block;
   margin-right: 20px;
   filter: invert(1);
   transform: scale(0.5);
   transition: 0.5s;
 }
-.social  a:hover
-{
+.social a:hover {
   transform: scale(0.5) translateY(-15px);
 }
 
 /* styling of nav for responsive screen */
 
 @media screen and (max-width: 600px) {
-  html{
+  html {
     scroll-behavior: smooth;
   }
   .topnav a:not(:first-child) {
@@ -326,9 +282,8 @@ padding-left: 40px;
   }
   .topnav a.icon {
     float: right;
-    display:block;
+    display: block;
   }
-  
 }
 
 @media screen and (max-width: 600px) {
@@ -344,6 +299,5 @@ padding-left: 40px;
     float: none;
     display: block;
     text-align: center;
-  
   }
 }
