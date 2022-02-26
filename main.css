@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -84,22 +84,6 @@ h1{
   padding-bottom: 320px;
   text-shadow: 2px 2px 4px #000000;
   
-}
-.home {
-  animation-name: home;
-  transition: all 3s ease;
-}
-
-
-.home.active{
-  transform: translateY(0);
-  opacity: 1;
-}
-
-
-@keyframes home {
-  from {margin: 140px;}
-   
 }
 
 
@@ -209,14 +193,7 @@ h1{
   border: 5px solid crimson;
 
 }
-.skills {
-  animation-name: home;
-  transition: all 3s ease;
-}
-@keyframes home {
-  from {margin: 140px;}
-   
-}
+
 
 .skills h1{
   color: crimson
@@ -237,14 +214,8 @@ list-style: none;
 
 
 /* styling for services page  */
-.social {
-  animation-name: home;
-  transition: all 3s ease;
-}
-@keyframes home {
-  from {margin: 140px;}
-   
-}
+
+
 
 /* style with social codes  */
 
@@ -259,14 +230,6 @@ flex-direction: column;
 flex-wrap: wrap;
 padding-left: 40px;
   
-}
-.text {
-  animation-name: home;
-  transition: all 3s ease;
-}
-@keyframes home {
-  from {margin: 140px;}
-   
 }
 
 .text h3,h4{
@@ -294,15 +257,7 @@ padding-left: 40px;
 
           
   }
-  .form {
-    animation-name: home;
-    transition: all 3s ease;
-  }
-
-  @keyframes home {
-    from {margin: 140px;}
-     
-  }
+  
   
   form >input {
       padding:8px;

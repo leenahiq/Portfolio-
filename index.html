@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel = "stylesheet" type="text/css" href="main.css">
     <title>My portfolio</title>
 </head>
@@ -25,13 +26,13 @@
             
     </div>
 
-
+</section>
 
             <!--text section  -->
 
 <section class="home" >
     
-        <div class="home-content">
+        <div class="home-content" data-aos="fade-left"  data-aos-duration="1000">
          <div class="text1"> Hello, my name is </div>
          <div class="text2"> Leenah Iqbal </div>
          <div class="text3"> I am a <span>Full Stack Web Developer </span> </div>
@@ -42,23 +43,22 @@
    
        
 </section>
-</section>
 
 <!-- about section -->
 
-<h1 id="link1">About me</h1>
+<h1 data-aos="fade-left"  data-aos-duration="1000" id="link1" >About me</h1>
  
-<section id="link1" class="about">
+<section id="link1" class="about" >
    
 
-    <img src = "mypic.jpg" alt = "my pic"></img>
+ <div data-aos="fade-right"  data-aos-duration="1000"><img src = "mypic.jpg" alt = "my pic"></img></div> 
    
-   <div class="profile">
+   <div class="profile" data-aos="fade-left"  data-aos-duration="1000" >
         <h2>profile</h2>
         <p>Passionate about web development. Completed IT Level 2 users skills, worked with Html, CSS, CSS Flexbox and basic-fundamental of Python, created a 6-page responsive website and text-based Python game. Active learning in IT Level 4 Master Course, working in-depth Html/Html5, Css/Css3, JavaScript, React, Node JS, SQL and MongoDB.</p>
     </div>
    
-    <div class="life">
+    <div class="life" data-aos="fade-right"  data-aos-duration="1000">
         <h2>Code Nation</h2>
         <p>Im enjoiying my campus a lot. Teachers are really helping and kind. All staff is very co-operative. Im very happy with the progress im making at <a href="https://wearecodenation.com/" >Code Nation</a>.
          </p>
@@ -70,7 +70,8 @@
         </section>
 
         <!-- skills section -->
-        <h1 id="link2">skills</h1>
+        <div data-aos="fade-left"  data-aos-duration="1000"><h1 id="link2">skills</h1></div>
+        <div data-aos="fade-left"  data-aos-duration="1000">
         <section id="link2" href="#link2" class="skills">
         <h1>My skills  </h1>
         <ul>
@@ -82,12 +83,12 @@
             <li>MongoDB & MySQL</li>
          
         </ul>
-        
+    </div>
 
      
     </section>
         <!-- services section -->
-        <h1 id="link3">Details Are Available On</h1>
+        <div data-aos="fade-right"  data-aos-duration="1000"><h1 id="link3">Details Are Available On</h1>
         <section id="link3" class="social">
         
             <a href="https://www.linkedin.com/in/leenah-iqbal-60747022b/" title="Image from freepnglogos.com"><img src="https://www.freepnglogos.com/uploads/linkedin-logo-transparent-png-16.png" width="200" alt="linkedin logo transparent png" /></a></a>
@@ -96,12 +97,13 @@
             <!-- <embed type="aplication/pdf" src="Leenah CV.pdf"> -->
         <button>Download cv </button> 
          </section>
-
+        </div>
   
 
 
 
     <!-- contact section  -->
+    <div data-aos="fade-left"  data-aos-duration="1000">
     <h1 id="link4">Contact</h1>
     <section id="link4" href="#link5" class="formContainer" >
 
@@ -133,20 +135,21 @@
             
            
         </div>
-
+    </div>
         </section>
     <br>
 <br>
 
 <!-- social section  -->
 </section>
+<divdata-aos="fade-right"  data-aos-duration="1000">
 <footer class="social">
     <a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a>
     <a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a>
     <a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a>
 
 </footer>
-
+</div>
 
  
       
@@ -155,7 +158,7 @@
 
 
 
-       
+       <!-- import function  for rsponsive lay out of navbar -->
   
 <script>
     function myFunction() {
@@ -167,10 +170,13 @@
       }
     }
 
-
+// import function and library on line no 8 for animation
     
     </script>
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
     
 </body>
 </html>
