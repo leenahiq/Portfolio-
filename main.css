@@ -190,7 +190,15 @@ h1 {
 }
 
 /* styling for services page  */
+#cv{
+  width: 200px;
+  font-size: 20px;
+  font-size:200;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid crimson;
 
+}
 /* style with social codes  */
 
 /* styling contact form */
